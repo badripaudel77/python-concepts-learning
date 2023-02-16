@@ -19,7 +19,7 @@ def db_connect():
                             password = "_BadriPostgres1@", 
                             host = "localhost", 
                             port = "5432")
-        # print("connected to the DB : ", connection)                    
+        print("connected to the DB : ", connection)                    
 
     except(Exception) as error:
         print("Something went wrong while connecting to PG DB server : ", error)
@@ -27,4 +27,4 @@ def db_connect():
     finally:
         return connection   
 
-# print(db_connect().cursor())            
+print("Testing Log DB :: " , db_connect().cursor())            

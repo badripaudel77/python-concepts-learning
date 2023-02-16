@@ -50,9 +50,13 @@ print('splitted text is : ' + str(splitted_text))
 lang = 'groovy'
 print(id(lang)) # id gives the address of the object
 lang = lang + '-'
+print("--- " , lang, " ---")
 print(id(lang)) # id gives the address of the object but completely different address is created as strings are immutable
 
 lang[0] = 'G' # gives error as string is immutable
+
+# but assigning lang a new different value fine. 
+# i.e. lang = 'Java' is fine as two lang won't have same value when id(lang) is printed or compared.
 
 
 

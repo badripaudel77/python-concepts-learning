@@ -9,9 +9,9 @@ while i<= 10:
     i = i+1
 print("Sum of 1 to 10 is : " + str(sum)) 
 
-for i in range(11):
+for i in range(1, 11):
     if(i%2==0):
-        print(i)
+        print("value = ", str(i))
         break
 print("broke out")
 

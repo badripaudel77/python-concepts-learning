@@ -1,7 +1,8 @@
-# In python, exceptions can be handled using a try statement.
-# The code that handles the exceptions is written in the except clause.
-# sys.exc_info()[0] gives the error message just like e.getMessage() in java.
-# We can catch specific error by passing type of error we want to handle in the constructor function of the except(....)
+""" In python, exceptions can be handled using a try statement.
+ The code that handles the exceptions is written in the except clause.
+ sys.exc_info()[0] gives the error message just like e.getMessage() in java.
+ We can catch specific error by passing type of error we want to handle in the constructor function of the except(....)
+"""
 
 import sys
 

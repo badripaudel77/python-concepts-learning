@@ -1,6 +1,6 @@
 # Variables are used to store values
 # Python language is interpreted, meaning it executes line one by one unlike compiled language
-# Python is Strongly Typed , i.e doen't convert type automatically "this is number" + 12 would produce error , have to convert 12 to string as str(12)
+# Python is Strongly Typed , i.e it doesn't convert type automatically "this is number" + 12 would produce error , have to convert 12 to string as str(12)
 # In python variables are created as : variable_name = expression eg age = 22
 # Type of variable can be checked using type(variable) 
 # In python variables can be assigned a different value like str = "6" and later str = 6 is fine
@@ -13,9 +13,9 @@ age , AGE_MESSAGE = 20, " years old" # simultaneous assignment
 
 
 # Prints to the console 
-# print(type(message)) # gives <class 'str'>
+# print(type(message)) # gives <class 'str'> as message is the string type
 # print(message + name + " you're " + age + " years old") # gives error as str and int can't be converted. 
 # str(value) converts value to type string , print(type(str(4))) gives <class 'str'>
 print(message + name + " you're " + str(age) + AGE_MESSAGE) 
-print(message, name, " you're", str(age), AGE_MESSAGE) # printing multiple values 
+print(message, name, " you're -", str(age), AGE_MESSAGE) # printing multiple values 
 # print(help(input)) # gives help about input in python

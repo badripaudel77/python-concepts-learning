@@ -5,8 +5,9 @@
 #  Also can be created using tuple constructor as tuple(tuple_value)
 
 fruits = ('Apple', 'Mango', 'Banana')
+# fruits[1] = 'Orange' #gives error as tuples are immutable.
 
-print(type(fruits), fruits)
+print(type(fruits), fruits, "\n")
 
 index_of_apple = fruits.index('Apple')
 print("Index of Apple in tuple is : ", index_of_apple)

@@ -16,6 +16,9 @@ class ShapeArea:
 
     def get_color(self) :
         return self.color
+    
+    def set_color(self, color_name = 'RED'):
+        self.color = color_name
 
     
 
